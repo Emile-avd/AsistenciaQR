@@ -6,11 +6,11 @@ public class qr {
         this.codigoQr = codigoQr;
     }
 
-    public String getCodigoQr() {
+    public String getQr() {
         return codigoQr;
     }
 
-    public boolean validarQr(String codigoIngresado) {
+    public boolean validarQR(String codigoIngresado) {
         return codigoQr.equals(codigoIngresado);
     }
 
